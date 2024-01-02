@@ -142,15 +142,43 @@ form input[type="submit"]:hover {
     color: #666;
 }
 
-/* CSS for quote*/
+/* CSS for quote */
+
+.nested-flexbox {
+    display: flex;
+}
+
+.about-me {
+    width: 300px;
+    margin: 20px;
+}
 
 .quote-section {
-    flex: 1; /* Takes remaining space */
+    flex: 1;
     max-width: 400px;
     margin: 20px;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee {
+    margin-bottom: 20px;
+}
+
+.employee img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.employee h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.employee p {
+    color: #666;
 }
 
 .quote {
