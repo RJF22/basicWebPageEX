@@ -102,3 +102,42 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #555;
 }
+
+/*About me Section*/
+
+.main-content {
+    display: flex;
+}
+
+.main-section {
+    flex: 1;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me {
+    width: 300px;
+    margin: 20px;
+}
+
+.employee {
+    margin-bottom: 20px;
+}
+
+.employee img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.employee h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.employee p {
+    color: #666;
+}
