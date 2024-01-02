@@ -1,3 +1,5 @@
+/*CSS for INDEX*/
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -53,6 +55,8 @@ footer {
     width: 100%;
 }
 
+/*CSS for Service Page*/
+
 .service {
     margin-bottom: 20px;
 }
@@ -63,4 +67,38 @@ footer {
 
 .service p {
     color: #666;
+}
+
+/*CSS for Contact Page*/
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
 }
