@@ -141,3 +141,31 @@ form input[type="submit"]:hover {
 .employee p {
     color: #666;
 }
+
+/* CSS for quote*/
+
+.quote-section {
+    flex: 1; /* Takes remaining space */
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    color: #333;
+}
+
+blockquote p {
+    margin-bottom: 10px;
+}
+
+blockquote footer {
+    color: #666;
+}
