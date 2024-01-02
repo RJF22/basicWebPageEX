@@ -4,7 +4,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    max-height: 200px;
     background-color: #f4f4f4;
 }
 
@@ -31,7 +30,7 @@ nav a {
 }
 
 section {
-    max-width: 800px;
+    max-width: 600px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -145,33 +144,22 @@ form input[type="submit"]:hover {
 
 /* CSS for quote */
 
-.main-section {
-    flex: 1;
-    max-width: 600px; /* Adjust the maximum width as needed */
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.quote-section {
-    max-width: 600px; /* Adjust the maximum width as needed */
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
 .nested-flexbox {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: space-between; /* Distribute items evenly */
 }
 
 .about-me {
     width: 300px;
     margin: 20px;
+}
+
+.quote-section {
+    flex: 1;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .employee {
