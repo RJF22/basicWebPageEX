@@ -16,5 +16,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send the email
     mail($to, $subject, $mailBody, $headers);
+
+    // Redirect to the confirmation page
+    header("Location: confirmation.html");
+    exit();
 }
 ?>
